@@ -1,1 +1,1 @@
-# TB-KB-241-Herasimenko-Vika
+# TP-KB-241-Herasimenko-Vika
