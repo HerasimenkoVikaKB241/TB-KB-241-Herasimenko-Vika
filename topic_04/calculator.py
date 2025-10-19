@@ -1,4 +1,4 @@
-# --- Функции арифметических операций ---
+
 def add(a, b):
     return a + b
 
@@ -9,7 +9,6 @@ def multiply(a, b):
     return a * b
 
 def divide(a, b):
-    # Обработка исключения деления на ноль
     try:
         return a / b
     except ZeroDivisionError:
@@ -17,7 +16,6 @@ def divide(a, b):
         return None
 
 
-# --- Функция безопасного ввода чисел ---
 def get_number(prompt):
     while True:
         try:
@@ -26,7 +24,7 @@ def get_number(prompt):
             print("Ошибка: введите корректное число!")
 
 
-# --- Основная программа ---
+
 def calculator():
     print("=== Калькулятор с обработкой исключений ===")
     print("Доступные операции: +, -, *, /")
