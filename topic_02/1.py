@@ -1,10 +1,9 @@
 import math
 
-# Функція розрахунку дискримінанта
+
 def discriminant(a, b, c):
     return b**2 - 4*a*c
 
-# Функція пошуку коренів квадратного рівняння
 def find_roots(a, b, c):
     d = discriminant(a, b, c)
     print(f"Дискримінант D = {d}")
@@ -19,7 +18,7 @@ def find_roots(a, b, c):
     else:
         print("Коренів немає (дискримінант < 0)")
 
-# --- Основна програма ---
+
 print("Пошук коренів квадратного рівняння ax² + bx + c = 0")
 a = float(input("Введіть a: "))
 b = float(input("Введіть b: "))
